@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="rclone-xfeed is a personal utility for securely connecting an authorized Google Drive account to rclone.">
+  <title>rclone-xfeed | Personal Google Drive Utility</title>
+  <style>
+    :root { color-scheme: light; --ink:#1f2937; --muted:#596579; --accent:#2457bf; --bg:#f6f8fc; --line:#e0e6ef; }
+    * {box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:760px;margin:7vh auto;padding:0 22px} article{background:white;padding:clamp(24px,5vw,56px);border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 35px rgba(40,57,90,.05)}
+    .tag{display:inline-block;color:var(--accent);background:#eaf0fe;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600}
+    h1{font-size:clamp(30px,5vw,42px);line-height:1.2;margin:20px 0} h2{font-size:20px;margin-top:32px} p{margin:12px 0;color:var(--muted)} ul{padding-left:23px;color:var(--muted)}
+    a{color:var(--accent)} footer{margin-top:35px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <span class="tag">Personal-use utility</span>
+      <h1>rclone-xfeed</h1>
+      <p><strong>rclone-xfeed</strong> is a personal-use Google Drive connection configured for use with <a href="https://rclone.org/drive/">rclone</a>, an open-source file management and synchronization tool.</p>
+      <h2>What it does</h2>
+      <p>After the Google account holder grants permission through Google's OAuth consent flow, this configuration allows rclone to access that account's Google Drive files for user-initiated operations such as listing, copying, uploading, downloading, and synchronizing files.</p>
+      <h2>Who it is for</h2>
+      <p>This application is intended for the owner's personal use. It is not offered as a public file hosting service and does not provide access to anyone's Google Drive without that account holder's authorization.</p>
+      <h2>Privacy and control</h2>
+      <ul>
+        <li>Google Drive access requires the account holder's authorization.</li>
+        <li>Access can be revoked at any time from the Google Account security settings.</li>
+        <li>File transfers are initiated and configured by the account holder through rclone.</li>
+      </ul>
+      <p>For more information about what data is accessed and how it is handled, read the <a href="privacy.html">Privacy Policy</a>.</p>
+      <footer>© 2026 rclone-xfeed · <a href="privacy.html">Privacy Policy</a></footer>
+    </article>
+  </main>
+</body>
+</html>
